@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Chain</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <div class="display">
+
+            <p id="scaleName">Choose A Scale!</p>
+
+            <p id="scale">Scale</p>
+
+            <p id="easyScale">I'm Easy!</p>
+
+        </div>
+
+        <div id="selection">
+
+            <div class="selectionFirstRow">
+                <button class="button" onclick="showScale('C')">C</button>
+                <button class="button" onclick="showScale('Db')">Db</button>
+            </div>
+
+            <div class="selectionSecondRow">
+                <button class="button" onclick="showScale('D')">D</button>
+                <button class="button" onclick="showScale('Eb')">Eb</button>
+            </div>
+
+            <div class="selectionThirdRow">
+                <button class="button" onclick="showScale('E')">E</button>
+                <button class="button" onclick="showScale('F')">F</button>
+            </div>
+
+            <div class="selectionFourthRow">
+                <button class="button" onclick="showScale('Gb')">Gb</button>
+                <button class="button" onclick="showScale('G')">G</button>
+            </div>
+
+            <div class="selectionFifthRow">
+                <button class="button" onclick="showScale('Ab')">Ab</button>
+                <button class="button" onclick="showScale('A')">A</button>
+            </div>
+
+            <div class="selectionSixthRow">
+                <button class="button" onclick="showScale('B')">B</button>
+                <button class="button" onclick="showScale('Cb')">Cb</button>
+            </div>
+
+        </div>
+
+        <div id="settings">
+
+            <div class="settingsFirstRow">
+                <button class="button" onclick="selectMode(' Major')">Major</button>
+                <button class="button" onclick="selectMode(' Dorian')">Dorian</button>
+                <button class="button" onclick="selectMode(' Phryigan')">Phrygian</button>
+                <button class="button" onclick="selectMode(' Lydian')">Lydian</button>
+            </div>
+
+            <div class="settingsSecondRow">
+                <button class="button" onclick="selectMode(' Mixolydian')">Mixolydian</button>
+                <button class="button" onclick="selectMode(' Minor')">Minor</button>
+                <button class="button" onclick="selectMode(' Locrian')">Locrian</button>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>This website will always be free and will never have ads!</p>
+        <p>If you'd like to support me, feel free to <a href="">buy me a coffee</a>!</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
