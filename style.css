@@ -97,7 +97,8 @@
         }
         
         footer p {
-            color: lightgray
+            color: lightgray;
+            margin-top: -2px;
         }
         
         #credits {
