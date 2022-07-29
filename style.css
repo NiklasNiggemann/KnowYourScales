@@ -92,3 +92,12 @@
         text-decoration: underline;
         color: lightgray;
     }
+    
+    #selectionFirstRow,
+    #selectionSecondRow,
+    #selectionThirdRow,
+    #selectionFourthRow,
+    #selectionFifthRow,
+    #selectionSixthRow {
+        flex-wrap: nowrap;
+    }
