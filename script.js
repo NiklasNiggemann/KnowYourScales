@@ -138,26 +138,32 @@ function showScale(root = 'C') {
                 case ' Major':
                     scale.innerHTML = "Eb F G Ab Bb C D";
                     scale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Dorian':
                     scale.innerHTML = "Eb F Gb Ab Bb C Db";
                     scale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Phrygian':
                     scale.innerHTML = "Eb Fb Gb Ab Bb Cb Db";
                     scale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Lydian':
                     scale.innerHTML = "Eb F G A Bb C D";
                     scale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Mixolydian':
                     scale.innerHTML = "Eb F G Ab Bb C Db";
                     scale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Minor':
                     scale.innerHTML = "Eb F Gb Ab Bb Cb Db";
                     scale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Locrian':
                     scale.innerHTML = "Eb Fb Gb Ab Bbb Cb Db";
