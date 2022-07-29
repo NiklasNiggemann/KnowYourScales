@@ -460,47 +460,42 @@ function showScale(root = 'C') {
                 default:
             }
             break;
-        case 'Cb':
+        case 'Bb':
             switch (mode) {
                 case ' Major':
-                    scale.innerHTML = "Cb Db Eb Fb Gb Ab Bb";
+                    scale.innerHTML = "Bb C D Eb F G A";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
                 case ' Dorian':
-                    scale.innerHTML = "Cb Db Ebb Fb Gb Ab Bbb";
+                    scale.innerHTML = "Bb C Db Eb F G Ab";
                     scale.style.opacity = 100;
-                    easyScale.innerHTML = "Cb Db D Fb Gb Ab A";
-                    easyScale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Phrygian':
-                    scale.innerHTML = "Cb Dbb Ebb Fb Gb Abb Bbb";
+                    scale.innerHTML = "Bb Cb Db Eb F Gb Ab";
                     scale.style.opacity = 100;
-                    easyScale.innerHTML = "Cb C D Fb Gb G A";
-                    easyScale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Lydian':
-                    scale.innerHTML = "Cb Db Eb F Gb Ab Bb";
+                    scale.innerHTML = "Bb C D E F G A";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
                 case ' Mixolydian':
-                    scale.innerHTML = "Cb Db Eb Fb Gb Ab Bbb";
+                    scale.innerHTML = "Bb C D Eb F G Ab";
                     scale.style.opacity = 100;
-                    easyScale.innerHTML = "Cb Db Eb FB Gb Ab A";
-                    easyScale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Minor':
-                    scale.innerHTML = "Cb Db Ebb Fb Gb Abb Bbb";
+                    scale.innerHTML = "Bb C Db Eb F Gb Ab";
                     scale.style.opacity = 100;
-                    easyScale.innerHTML = "Cb Db D Fb Gb G A";
-                    easyScale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 case ' Locrian':
-                    scale.innerHTML = "Cb Dbb Ebb Fb Gbb Abb Bbb";
+                    scale.innerHTML = "Bb Cb Db Eb Fb Gb Ab";
                     scale.style.opacity = 100;
-                    easyScale.innerHTML = "Cb C D Fb F G A";
-                    easyScale.style.opacity = 100;
+                    easyScale.style.opacity = 0;
                     break;
                 default:
             }
