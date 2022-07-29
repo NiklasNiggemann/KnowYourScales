@@ -22,7 +22,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "C Db Eb F G Ab Bb";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
@@ -62,7 +62,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "Db Ebb Fb Gb Ab Bbb Cb";
                     scale.style.opacity = 100;
                     easyScale.innerHTML = "Db D Fb Gb Ab A Cb";
@@ -105,7 +105,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "D Eb F G A Bb C";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
@@ -137,25 +137,33 @@ function showScale(root = 'C') {
             switch (mode) {
                 case ' Major':
                     scale.innerHTML = "Eb F G Ab Bb C D";
+                    scale.style.opacity = 100;
                     break;
                 case ' Dorian':
                     scale.innerHTML = "Eb F Gb Ab Bb C Db";
+                    scale.style.opacity = 100;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "Eb Fb Gb Ab Bb Cb Db";
+                    scale.style.opacity = 100;
                     break;
                 case ' Lydian':
                     scale.innerHTML = "Eb F G A Bb C D";
+                    scale.style.opacity = 100;
                     break;
                 case ' Mixolydian':
                     scale.innerHTML = "Eb F G Ab Bb C Db";
+                    scale.style.opacity = 100;
                     break;
                 case ' Minor':
                     scale.innerHTML = "Eb F Gb Ab Bb Cb Db";
+                    scale.style.opacity = 100;
                     break;
                 case ' Locrian':
                     scale.innerHTML = "Eb Fb Gb Ab Bbb Cb Db";
+                    scale.style.opacity = 100;
                     easyScale.innerHTML = "Eb Fb Gb Ab A Cb Db";
+                    easyScale.style.opacity = 100;
                     break;
                 default:
             }
@@ -172,7 +180,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "E F G A B C D";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
@@ -212,7 +220,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "F Gb Ab Bb C Db Eb";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
@@ -253,10 +261,10 @@ function showScale(root = 'C') {
                     easyScale.innerHTML = "Gb Ab A Cb Db Eb F";
                     easyScale.style.opacity = 100;
                     break;
-                case ' Phryigan':
-                    scale.innerHTML = "Gb Abb Bbb Cb Db Ebb F";
+                case ' Phrygian':
+                    scale.innerHTML = "Gb Abb Bbb Cb Db Ebb Fb";
                     scale.style.opacity = 100;
-                    easyScale.innerHTML = "Gb G A Cb Db D F";
+                    easyScale.innerHTML = "Gb G A Cb Db D Fb";
                     easyScale.style.opacity = 100;
                     break;
                 case ' Lydian':
@@ -296,7 +304,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "G Ab Bb C D Eb F";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
@@ -336,7 +344,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "Ab Bbb Cb Db Eb Fb Gb";
                     scale.style.opacity = 100;
                     easyScale.innerHTML = "Ab A Cb Db Eb Fb Gb";
@@ -358,9 +366,9 @@ function showScale(root = 'C') {
                     easyScale.style.opacity = 0;
                     break;
                 case ' Locrian':
-                    scale.innerHTML = "Ab Bbb Cb Db Eb Fb Gb";
+                    scale.innerHTML = "Ab Bbb Cb Db Ebb Fb Gb";
                     scale.style.opacity = 100;
-                    easyScale.innerHTML = "Ab A Cb Db Eb Fb Gb";
+                    easyScale.innerHTML = "Ab A Cb Db D Fb Gb";
                     easyScale.style.opacity = 100;
                     break;
                 default:
@@ -378,7 +386,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "A Bb C D E F G";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
@@ -418,7 +426,7 @@ function showScale(root = 'C') {
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "B C D E F# G A";
                     scale.style.opacity = 100;
                     easyScale.style.opacity = 0;
@@ -459,7 +467,7 @@ function showScale(root = 'C') {
                     easyScale.innerHTML = "Cb Db D Fb Gb Ab A";
                     easyScale.style.opacity = 100;
                     break;
-                case ' Phryigan':
+                case ' Phrygian':
                     scale.innerHTML = "Cb Dbb Ebb Fb Gb Abb Bbb";
                     scale.style.opacity = 100;
                     easyScale.innerHTML = "Cb C D Fb Gb G A";
@@ -479,7 +487,7 @@ function showScale(root = 'C') {
                 case ' Minor':
                     scale.innerHTML = "Cb Db Ebb Fb Gb Abb Bbb";
                     scale.style.opacity = 100;
-                    easyScale.innerHTML = "Cb Db D Fb Gb G B";
+                    easyScale.innerHTML = "Cb Db D Fb Gb G A";
                     easyScale.style.opacity = 100;
                     break;
                 case ' Locrian':

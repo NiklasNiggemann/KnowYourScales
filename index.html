@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Key Chain</title>
+    <title>Know Your Scales!</title>
     <link rel="stylesheet" type="text/css" href="style.css"></link>
 </head>
 
@@ -17,7 +17,7 @@
 
     <main>
 
-        <div class="display">
+        <div id="display">
 
             <p id="scaleName">Choose A Scale!</p>
 
@@ -29,32 +29,32 @@
 
         <div id="selection">
 
-            <div class="selectionFirstRow">
+            <div id="selectionFirstRow">
                 <button class="button" onclick="showScale('C')">C</button>
                 <button class="button" onclick="showScale('Db')">Db</button>
             </div>
 
-            <div class="selectionSecondRow">
+            <div id="selectionSecondRow">
                 <button class="button" onclick="showScale('D')">D</button>
                 <button class="button" onclick="showScale('Eb')">Eb</button>
             </div>
 
-            <div class="selectionThirdRow">
+            <div id="selectionThirdRow">
                 <button class="button" onclick="showScale('E')">E</button>
                 <button class="button" onclick="showScale('F')">F</button>
             </div>
 
-            <div class="selectionFourthRow">
+            <div id="selectionFourthRow">
                 <button class="button" onclick="showScale('Gb')">Gb</button>
                 <button class="button" onclick="showScale('G')">G</button>
             </div>
 
-            <div class="selectionFifthRow">
+            <div id="selectionFifthRow">
                 <button class="button" onclick="showScale('Ab')">Ab</button>
                 <button class="button" onclick="showScale('A')">A</button>
             </div>
 
-            <div class="selectionSixthRow">
+            <div id="selectionSixthRow">
                 <button class="button" onclick="showScale('B')">B</button>
                 <button class="button" onclick="showScale('Cb')">Cb</button>
             </div>
@@ -63,14 +63,14 @@
 
         <div id="settings">
 
-            <div class="settingsFirstRow">
+            <div id="settingsFirstRow">
                 <button class="button" onclick="selectMode(' Major')">Major</button>
                 <button class="button" onclick="selectMode(' Dorian')">Dorian</button>
-                <button class="button" onclick="selectMode(' Phryigan')">Phrygian</button>
+                <button class="button" onclick="selectMode(' Phrygian')">Phrygian</button>
                 <button class="button" onclick="selectMode(' Lydian')">Lydian</button>
             </div>
 
-            <div class="settingsSecondRow">
+            <div id="settingsSecondRow">
                 <button class="button" onclick="selectMode(' Mixolydian')">Mixolydian</button>
                 <button class="button" onclick="selectMode(' Minor')">Minor</button>
                 <button class="button" onclick="selectMode(' Locrian')">Locrian</button>
@@ -81,8 +81,8 @@
     </main>
 
     <footer>
-        <p>This website will always be free and will never have ads!</p>
-        <p>If you'd like to support me, feel free to <a href="">buy me a coffee</a>!</p>
+        <p id="footer1">This website will always be free of ads and charge!</p>
+        <p id="footer2">If you like this little project, feel free to buy me a coffee <a target="_blank" href="https://www.buymeacoffee.com/jjjustboy" rel="noreferrer noopener">here</a>!</p>
     </footer>
 
     <script src="script.js"></script>
