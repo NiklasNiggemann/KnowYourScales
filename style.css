@@ -34,13 +34,6 @@
             background-color: lightgray;
         }
         
-        @media all and (max-width:30em) {
-            button {
-                display: block;
-                margin: 0.4em auto;
-            }
-        }
-        
         #scaleName,
         #scale,
         #easyScale,
@@ -77,20 +70,12 @@
         
         a {
             text-decoration: none;
+            font-weight: bold;
         }
         
         a:hover {
             text-decoration: underline;
             color: lightgray;
-        }
-        
-        #selectionFirstRow,
-        #selectionSecondRow,
-        #selectionThirdRow,
-        #selectionFourthRow,
-        #selectionFifthRow,
-        #selectionSixthRow {
-            flex-wrap: nowrap;
         }
         
         body {
@@ -108,6 +93,7 @@
         footer {
             text-align: center;
             font-size: 10px;
+            margin-top: 25px;
         }
         
         footer p {
@@ -117,4 +103,14 @@
         #credits {
             color: gray;
             font-size: 9px;
+        }
+        
+        @media (max-width: 800px) {
+            #scaleName {
+                font-size: 38px;
+            }
+            #scale,
+            #easyScale {
+                font-size: 28px;
+            }
         }
