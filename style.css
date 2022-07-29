@@ -1,111 +1,120 @@
-    * {
-        font-family: Arial, Helvetica, sans-serif;
-        color: whitesmoke;
-        background-color: #000000;
-    }
-    
-    #easyScale,
-    #scale,
-    #settings {
-        opacity: 0;
-    }
-    
-    #easyScale {
-        color: gray;
-    }
-    
-    button {
-        display: inline-block;
-        padding: 0.35em 1.2em;
-        border: 0.1em solid whitesmoke;
-        margin: 0 0.3em 0.3em 0;
-        border-radius: 0.12em;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        color: whitesmoke;
-        text-align: center;
-        transition: all 0.2s;
-    }
-    
-    button:hover {
-        color: #000000;
-        background-color: lightgray;
-    }
-    
-    @media all and (max-width:30em) {
-        button {
-            display: block;
-            margin: 0.4em auto;
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+            color: whitesmoke;
+            background-color: #000000;
         }
-    }
-    
-    #scaleName,
-    #scale,
-    #easyScale,
-    #selection,
-    #settings {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #scaleName {
-        font-size: 45px;
-    }
-    
-    #scale,
-    #easyScale {
-        font-size: 35px;
-    }
-    
-    #easyScale {
-        margin-top: -20px;
-        margin-bottom: 45px;
-    }
-    
-    #selection,
-    #settings {
-        flex-direction: column;
-        margin-top: 30px;
-    }
-    
-    button {
-        font-size: 16px;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    a:hover {
-        text-decoration: underline;
-        color: lightgray;
-    }
-    
-    #selectionFirstRow,
-    #selectionSecondRow,
-    #selectionThirdRow,
-    #selectionFourthRow,
-    #selectionFifthRow,
-    #selectionSixthRow {
-        flex-wrap: nowrap;
-    }
-    
-    body {
-        display: flex;
-        min-height: 100vh;
-        margin: 0 auto;
-        flex-direction: column;
-    }
-    
-    main {
-        min-height: 5em;
-        flex: 1;
-    }
-    
-    footer {
-        text-align: center;
-        font-size: 13px;
-    }
+        
+        #easyScale,
+        #scale,
+        #settings {
+            opacity: 0;
+        }
+        
+        #easyScale {
+            color: gray;
+        }
+        
+        button {
+            display: inline-block;
+            padding: 0.35em 1.2em;
+            border: 0.1em solid whitesmoke;
+            margin: 0 0.3em 0.3em 0;
+            border-radius: 0.12em;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            color: whitesmoke;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        
+        button:hover {
+            color: #000000;
+            background-color: lightgray;
+        }
+        
+        @media all and (max-width:30em) {
+            button {
+                display: block;
+                margin: 0.4em auto;
+            }
+        }
+        
+        #scaleName,
+        #scale,
+        #easyScale,
+        #selection,
+        #settings {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #scaleName {
+            font-size: 45px;
+        }
+        
+        #scale,
+        #easyScale {
+            font-size: 35px;
+        }
+        
+        #easyScale {
+            margin-top: -20px;
+            margin-bottom: 45px;
+        }
+        
+        #selection,
+        #settings {
+            flex-direction: column;
+            margin-top: 30px;
+        }
+        
+        button {
+            font-size: 16px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: lightgray;
+        }
+        
+        #selectionFirstRow,
+        #selectionSecondRow,
+        #selectionThirdRow,
+        #selectionFourthRow,
+        #selectionFifthRow,
+        #selectionSixthRow {
+            flex-wrap: nowrap;
+        }
+        
+        body {
+            display: flex;
+            min-height: 100vh;
+            margin: 0 auto;
+            flex-direction: column;
+        }
+        
+        main {
+            min-height: 5em;
+            flex: 1;
+        }
+        
+        footer {
+            text-align: center;
+            font-size: 10px;
+        }
+        
+        footer p {
+            color: lightgray
+        }
+        
+        #credits {
+            color: gray;
+            font-size: 9px;
+        }
